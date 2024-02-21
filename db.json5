@@ -1,0 +1,15 @@
+{
+  user: [
+    { id:'1001',name:'Ben Weinmann',customerID:'C1026833,C1113684,C1239173,C1239172',client:'EAST GODAVARI'},
+    { id:'1002',name:'Bill Rymer',customerID:'C1026833,C1239173,C1239172',client:'BANGALORE'},
+    { id:'1003',name:'Greg Puciato',customerID:'C1026833' },
+    { id:'1004',name:'Liam Wilson',customerID:'C1239172' }
+  ],
+  client: [
+    { id: 'EAST GODAVARI', text: 'a comment about post 1', postId: '1' },
+    { id: '2', text: 'another comment about post 1', postId: '1' }
+  ],
+  profile: {
+    name: 'typicode',
+  },
+}
