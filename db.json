@@ -1,13 +1,15 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+  "user": [
+    { "id":"1001","name":"Ben Weinmann","customerid":"C1026833,C1113684,C1239173,C1239172","client":"EAST GODAVARI"},
+    { "id":"1002","name":"Bill Rymer","customerid":"C1026833,C1239173,C1239172","client":"BANGALORE"},
+    { "id":"1003","name":"Greg Puciato","customerid":"C1026833" },
+    { "id":"1004","name":"Liam Wilson","customerid":"C1239172" }
   ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  "client": [
+    { "id": "EAST GODAVARI", "text": "a comment about post 1", "postd": "1" },
+    { "id": "2", "text": "another comment about post 1", "postd": "1" }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "typicode",
   }
 }
