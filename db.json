@@ -1,24 +1,60 @@
 {
   "agent": [
-    { "id":"A1001","name":"Ben Weinmann","customer":"C1026833,C1113684,C1239173,C1239172","branch":"B1001 B1002"},
+    { "id":"A1001","name":"Ben Weinmann","customer":"C1026833,C1113684,C1239173,C1239172","branch":"B1001,B1002"},
     { "id":"A1002","name":"Bill Rymer","customer":"C1026833,C1239173,C1239172", "branch":"B1001"},
     { "id":"A1003","name":"Greg Puciato","customer":"C1026833" },
-    { "id":"A1004","name":"Liam Wilson","customer":"C1239172" }
+    { "id":"A1004","name":"Liam Wilson","customer":"C1239172" },
+    { "id":"A1005","name":"Brent Hinds","customer":"C1239169,C1239169" },
+    { "id":"A1006","name":"Brann Dailor","customer":"C1239173" },
+    { "id":"A1007","name":"Troy Sanders","customer":"C1239173" },
+    { "id":"A1008","name":"Bill Kelliher","customer":"C1239173" },
+    { "id":"A1009","name":"Brent Hinds","customer":"C1239169" },
+    { "id":"A1010","name":"Brann Dailor","customer":"C1239166" }
   ],
   "customer": [
     { "id": "C1026833", "name": "Larry Bird"},
     { "id": "C1113684", "name": "Michael Jordan"},
     { "id": "C1239173", "name": "Magic Johnson"},
-    { "id": "C1239172", "name": "Kareem Abdul-Jabbar"}
+    { "id": "C1239172", "name": "Kareem Abdul-Jabbar"},
+    { "id": "C1239171", "name": "Wilt Chamberlain"},
+    { "id": "C1239170", "name": "Bill Russell"},
+    { "id": "C1239169", "name": "Jerry West"},
+    { "id": "C1239168", "name": "Oscar Robertson"},
+    { "id": "C1239167", "name": "Elgin Baylor"},
+    { "id": "C1239166", "name": "Bob Pettit"},
+    { "id": "C1239165", "name": "George Mikan"},
+    { "id": "C1239164", "name": "Dolph Schayes"},
+    { "id": "C1239163", "name": "Harry Gallatin"},
+    { "id": "C1239162", "name": "Neil Johnston"},
+    { "id": "C1239161", "name": "Joe Fulks"},
+    { "id": "C1239160", "name": "Max Zaslofsky"},
+    { "id": "C1239159", "name": "George Senesky"},
+    { "id": "C1239158", "name": "Joe Graboski"},
+    { "id": "C1239157", "name": "Andy Phillip"}
   ],
   "manager": [
     { "id": "MG1001", "name": "David Bowie", "branch": "B1001,B1002" },
     { "id": "MG1002", "name": "David Gilmour", "branch": "B1001" },
-    { "id": "MG1003", "name": "David Grohl", "branch": "B1002" }
+    { "id": "MG1003", "name": "David Grohl", "branch": "B1002" },
+    { "id": "MG1004", "name": "David Lee Roth", "branch": "B1003" },
+    { "id": "MG1005", "name": "David Navarro", "branch": "B1004" },
+    { "id": "MG1006", "name": "David St. Hubbins", "branch": "B1005" },
+    { "id": "MG1007", "name": "David Van Halen", "branch": "B1006" },
+    { "id": "MG1008", "name": "David Coverdale", "branch": "B1007" },
+    { "id": "MG1009", "name": "David Gahan", "branch": "B1008" },
+    { "id": "MG1010", "name": "David Johansen", "branch": "B1009" }
   ],
   "branch": [
-    { "id": "B1001","name": "Capitol Square", "address": "this is the address" },
-    { "id": "B1002", "name": "Brewery District", "address": "this is the address"}
+    { "id": "B1001","name": "Capitol Square", "address": "17 S High Street Columbus, OH 43215", "street": "17 S High Street", "city": "Columbus", "state": "OH", "zip": "43215"},
+    { "id": "B1002", "name": "Brewery District", "address": "600 South High Street Columbus, OH 43215", "street": "600 South High Street", "city": "Columbus", "state": "OH", "zip": "43215"},
+    { "id": "B1003", "name": "Short North", "address": "830 North High Street Columbus, OH 43215", "street": "830 North High Street", "city": "Columbus", "state": "OH", "zip": "43215"},
+    { "id": "B1004", "name": "Ohio State Doan", "address": "410 W 10th Ave Columbus, OH 43210", "street": "410 W 10th Ave", "city": "Columbus", "state": "OH", "zip": "43210"},
+    { "id": "B1005", "name": "University North", "address": "1928 N. High Street Columbus, OH 43201", "street": "1928 N. High Street", "city": "Columbus", "state": "OH", "zip": "43201"},
+    { "id": "B1006", "name": "Tri-Village", "address": "1555 West Fifth Avenue Columbus, OH 43212", "street": "1555 West Fifth Avenue", "city": "Columbus", "state": "OH", "zip": "43212"},
+    { "id": "B1007", "name": "Bexley", "address": "2631 E. Main St. Bexley, OH 43209", "street": "2631 E. Main St.", "city": "Bexley", "state": "OH", "zip": "43209"},
+    { "id": "B1008", "name": "Lane Avenue", "address": "1531 West Lane Avenue Columbus, OH 43221", "street": "1531 West Lane Avenue", "city": "Columbus", "state": "OH", "zip": "43221"},
+    { "id": "B1009", "name": "Eastmoor", "address": "3003 East Main Street Columbus, OH 43209", "street": "3003 East Main Street", "city": "Columbus", "state": "OH", "zip": "43209"},
+    { "id": "B1010", "name": "Great Southern", "address": "3464 South High Street Columbus, OH 43207", "street": "3464 South High Street", "city": "Columbus", "state": "OH", "zip": "43207"}
   ],
   "profile": {
     "name": "typicode"
