@@ -18,7 +18,7 @@
   ],
   "branch": [
     { "id": "B1001","name": "Capitol Square", "address": "this is the address" },
-    { "id": "B1002", "name": "Brewery District", "address": "this is the address"},
+    { "id": "B1002", "name": "Brewery District", "address": "this is the address"}
   ],
   "profile": {
     "name": "typicode"
