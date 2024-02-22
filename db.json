@@ -1,13 +1,24 @@
 {
-  "user": [
-    { "id":"1001","name":"Ben Weinmann","customerid":"C1026833,C1113684,C1239173,C1239172","client":"EAST GODAVARI"},
-    { "id":"1002","name":"Bill Rymer","customerid":"C1026833,C1239173,C1239172","client":"BANGALORE"},
-    { "id":"1003","name":"Greg Puciato","customerid":"C1026833" },
-    { "id":"1004","name":"Liam Wilson","customerid":"C1239172" }
+  "agent": [
+    { "id":"A1001","name":"Ben Weinmann","customer":"C1026833,C1113684,C1239173,C1239172","branch":"B1001 B1002"},
+    { "id":"A1002","name":"Bill Rymer","customer":"C1026833,C1239173,C1239172", "branch":"B1001"},
+    { "id":"A1003","name":"Greg Puciato","customer":"C1026833" },
+    { "id":"A1004","name":"Liam Wilson","customer":"C1239172" }
   ],
-  "client": [
-    { "id": "EAST GODAVARI", "text": "a comment about post 1", "postd": "1" },
-    { "id": "2", "text": "another comment about post 1", "postd": "1" }
+  "customer": [
+    { "id": "C1026833", "name": "Larry Bird"},
+    { "id": "C1113684", "name": "Michael Jordan"},
+    { "id": "C1239173", "name": "Magic Johnson"},
+    { "id": "C1239172", "name": "Kareem Abdul-Jabbar"}
+  ],
+  "manager": [
+    { "id": "MG1001", "name": "David Bowie", "branch": "B1001,B1002" },
+    { "id": "MG1002", "name": "David Gilmour", "branch": "B1001" },
+    { "id": "MG1003", "name": "David Grohl", "branch": "B1002" }
+  ],
+  "branch": [
+    { "id": "B1001","name": "Capitol Square", "address": "this is the address" },
+    { "id": "B1002", "name": "Brewery District", "address": "this is the address"},
   ],
   "profile": {
     "name": "typicode"
