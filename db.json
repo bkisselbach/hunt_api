@@ -18,14 +18,14 @@
     { "id": "C1140272", "name": "Alissa White"}
   ],
   "manager": [
-    { "id": "MG1001", "name": "Gary Willis", "branch": "B1001,B1002" },
-    { "id": "MG1002", "name": "Eric Avery", "branch": "B1001" },
-    { "id": "MG1003", "name": "James Jamerson", "branch": "B1002" },
-    { "id": "MG1004", "name": "Carol Kaye", "branch": "B1003" }
+    { "id": "M1001", "name": "Gary Willis", "branch": "B1001,B1002" },
+    { "id": "M1002", "name": "Eric Avery", "branch": "B1001" },
+    { "id": "M1003", "name": "James Jamerson", "branch": "B1002" },
+    { "id": "M1004", "name": "Carol Kaye", "branch": "B1003" }
   ],
   "relationship": [
-    { "id":"R1001","name":"Ben Weinmann","customer":"C1015616,C1129438,C2023186,C1140272","branch":"B1001,B1002"},
-    { "id":"R1002","name":"Nick DePirro","customer":"C1015616,C1129438,C2134513", "branch":"B1001"},
+    { "id":"R1001","name":"Ben Weinmann","customer":"C1015616,C1129438,C2023186,C1140272"},
+    { "id":"R1002","name":"Nick DePirro","customer":"C1015616,C1129438,C2134513"},
     { "id":"R1003","name":"Acle Kahney","customer":"C2134513" },
     { "id":"R1004","name":"Drew Goddard","customer":"C1140272" }
   ]
