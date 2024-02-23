@@ -24,9 +24,9 @@
     { "id": "MG1004", "name": "Carol Kaye", "branch": "B1003" }
   ],
   "relationship": [
-    { "id":"R1001","name":"Ben Weinmann","customer":"C1026833,C1113684,C1239173,C1239172","branch":"B1001,B1002"},
-    { "id":"R1002","name":"Nick DePirro","customer":"C1026833,C1239173,C1239172", "branch":"B1001"},
-    { "id":"R1003","name":"Acle Kahney","customer":"C1026833" },
-    { "id":"R1004","name":"Drew Goddard","customer":"C1239172" }
+    { "id":"R1001","name":"Ben Weinmann","customer":"C1015616,C1129438,C2023186,C1140272","branch":"B1001,B1002"},
+    { "id":"R1002","name":"Nick DePirro","customer":"C1015616,C1129438,C2134513", "branch":"B1001"},
+    { "id":"R1003","name":"Acle Kahney","customer":"C2134513" },
+    { "id":"R1004","name":"Drew Goddard","customer":"C1140272" }
   ]
 }
